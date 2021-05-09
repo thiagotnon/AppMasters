@@ -5,7 +5,6 @@ const Input = ({
   label,
   type,
   name,
-  defaultValue,
   value,
   onChange,
   error,
@@ -21,7 +20,6 @@ const Input = ({
         name={name}
         type={type}
         value={customMask ? mask(unMask(value), customMask) : value}
-        defaultValue={defaultValue}
         onChange={onChange}
         onBlur={onBlur}
         readOnly={readOnly}
