@@ -1,4 +1,4 @@
-# Formulário de usuário
+# Formulário de Adesivos
 
 Este teste foi proposto pela [App Masters](https://appmasters.io/pt/) para a seleção de desenvolvedor front-end.
 
@@ -22,4 +22,4 @@ Inicie o projeto
 yarn start
 ```
 
-Acesse o [User Form](https://angry-shirley-46894e.netlify.app/).
+Acesse o [Formulário de Adesivos](https://angry-shirley-46894e.netlify.app/).
