@@ -35,11 +35,12 @@ const UserForm = () => {
       .replace(')', '')
       .replace(' ', '')
       .replace('-', '');
+    const clearCep = addressZip.value.replace('.', '').replace('-', '');
     const { url, options } = POST_USER({
       name: name.value,
       email: email.value,
       phone: clearPhone,
-      addressZip: addressZip.value,
+      addressZip: clearCep,
       addressStreet: event.target.addressStreet.value,
       addressNumber: addressNumber.value,
       addressComplement: addressComplement.value,
