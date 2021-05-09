@@ -35,7 +35,6 @@ const UserForm = () => {
       .replace(')', '')
       .replace(' ', '')
       .replace('-', '');
-    console.log(clearPhone);
     const { url, options } = POST_USER({
       name: name.value,
       email: email.value,
